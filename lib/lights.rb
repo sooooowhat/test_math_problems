@@ -16,4 +16,4 @@ a = [0] * 100
     a[x*(i+1)-1] = a[x*(i+1)-1] == 0 ? 1 : 0
   end
 end
-a.reject{|x| x==0 }.count
+a.reject{|x| x == 0 }.count
