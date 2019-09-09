@@ -30,7 +30,7 @@ class << str
 end
 
 str.hello   # => "aaaa1"
-str.singleton_class # => #<Class:#<String:0x0000000001874708>>
+str.singleton_class # => #<Class:#<String:0x...>>
 str.singleton_class.superclass # => String
 
 4.
