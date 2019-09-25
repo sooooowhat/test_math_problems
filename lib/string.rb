@@ -1,7 +1,6 @@
 # 找出字符串中连续出现次数大于1的字符串
 arr = "aaasdfasdasddffddffaassddfasdfaacccccddd".split("")
-len = 1
-a = []
+len，a = 1,[]
 arr.each_with_index do |x,i|
 	if i > 0
 		if x == arr[i-1]
