@@ -38,7 +38,7 @@ p a
 end
 
 
-4:(这题不会，查了资料，然后看到类似的，拿过来的。）
+4:
  require 'active_support/concern'
 
 module Injection
