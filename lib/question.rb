@@ -76,4 +76,4 @@ end
 
 
 5:
- update 又会触发after_save 操作，改为after_create
+before_save
